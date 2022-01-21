@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		3427B65F279AC922006EA03D /* business_card_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427B65E279AC922006EA03D /* business_card_SwiftUIApp.swift */; };
 		3427B661279AC922006EA03D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427B660279AC922006EA03D /* ContentView.swift */; };
-		3427B663279AC924006EA03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3427B662279AC924006EA03D /* Assets.xcassets */; };
 		3427B666279AC924006EA03D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3427B665279AC924006EA03D /* Preview Assets.xcassets */; };
+		3427B66D279AD44B006EA03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3427B66C279AD44B006EA03D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3427B65B279AC922006EA03D /* business card SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "business card SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3427B65E279AC922006EA03D /* business_card_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = business_card_SwiftUIApp.swift; sourceTree = "<group>"; };
 		3427B660279AC922006EA03D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3427B662279AC924006EA03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3427B665279AC924006EA03D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3427B66C279AD44B006EA03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +51,9 @@
 		3427B65D279AC922006EA03D /* business card SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3427B66C279AD44B006EA03D /* Assets.xcassets */,
 				3427B65E279AC922006EA03D /* business_card_SwiftUIApp.swift */,
 				3427B660279AC922006EA03D /* ContentView.swift */,
-				3427B662279AC924006EA03D /* Assets.xcassets */,
 				3427B664279AC924006EA03D /* Preview Content */,
 			);
 			path = "business card SwiftUI";
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3427B66D279AD44B006EA03D /* Assets.xcassets in Resources */,
 				3427B666279AC924006EA03D /* Preview Assets.xcassets in Resources */,
-				3427B663279AC924006EA03D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
